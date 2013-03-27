@@ -7,7 +7,7 @@ USE cinema;
 /* Structure de la table 'Artiste'*/
 
 CREATE TABLE Artiste (
-   Nom varchar(20) NOT NULL,
+   Nom varchar(30) NOT NULL,
    Prenom varchar(15),
    Annee_naissance decimal(4,0),
    PRIMARY KEY (Nom)
